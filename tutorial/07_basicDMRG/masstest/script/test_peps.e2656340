@@ -1,0 +1,49 @@
+tput: No value for $TERM and no -T specified
+[compute-1-62:79231] *** Process received signal ***
+[compute-1-62:79231] Signal: Segmentation fault (11)
+[compute-1-62:79231] Signal code: Address not mapped (1)
+[compute-1-62:79231] Failing at address: 0x28
+[compute-1-62:79232] *** Process received signal ***
+[compute-1-62:79232] Signal: Segmentation fault (11)
+[compute-1-62:79232] Signal code: Address not mapped (1)
+[compute-1-62:79232] Failing at address: 0x28
+[compute-1-62:79233] *** Process received signal ***
+[compute-1-62:79233] Signal: Segmentation fault (11)
+[compute-1-62:79233] Signal code: Address not mapped (1)
+[compute-1-62:79233] Failing at address: 0x28
+[compute-1-31.local][[55332,1],5][btl_tcp_frag.c:216:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[compute-1-31.local][[55332,1],7][btl_tcp_frag.c:216:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[compute-1-31.local][[55332,1],6][btl_tcp_frag.c:216:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[compute-1-62:79231] [ 0] /lib64/libpthread.so.0() [0x344380f500]
+[compute-1-62:79231] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-1-62:79231] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-1-62:79231] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-1-62:79231] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-1-62:79231] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-1-62:79231] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-1-62:79231] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x344301ecdd]
+[compute-1-62:79231] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-1-62:79231] *** End of error message ***
+[compute-1-62:79232] [ 0] /lib64/libpthread.so.0() [0x344380f500]
+[compute-1-62:79232] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-1-62:79232] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-1-62:79232] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-1-62:79232] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-1-62:79232] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-1-62:79232] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-1-62:79232] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x344301ecdd]
+[compute-1-62:79232] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-1-62:79232] *** End of error message ***
+[compute-1-62:79233] [ 0] /lib64/libpthread.so.0() [0x344380f500]
+[compute-1-62:79233] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-1-62:79233] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-1-62:79233] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-1-62:79233] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-1-62:79233] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-1-62:79233] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-1-62:79233] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x344301ecdd]
+[compute-1-62:79233] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-1-62:79233] *** End of error message ***
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 13 with PID 79231 on node compute-1-62.local exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

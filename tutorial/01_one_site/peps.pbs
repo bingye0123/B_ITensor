@@ -1,0 +1,7 @@
+#/bin/tcsh
+#PBS -l mem=32gb,nodes=1:ppn=1,walltime=12:00:00
+#PBS -m abe -M yeba@bc.edu
+#PBS -N peps_test
+cd /home/yeba/B_ITensor/tutorial/01_one_site
+/opt/openmpi/bin/mpiexec -n 1 -hostfile $PBS_NODEFILE \
+/home/yeba/B_ITensor/tutorial/01_one_site/one > output

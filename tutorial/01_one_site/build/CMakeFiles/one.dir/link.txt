@@ -1,0 +1,1 @@
+/usr/bin/c++      -L/home/yeba/intel/composer_xe_2013_sp1.0.080/compiler/lib/intel64 -L/home/yeba/intel/composer_xe_2013_sp1.0.080/mkl/lib/intel64 -L/opt/openmpi/lib CMakeFiles/one.dir/one.o  -o one -rdynamic -lutility -litensor -lmatrix 

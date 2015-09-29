@@ -1,0 +1,11 @@
+#!/bin/tcsh
+
+set m=1
+while ( $m <= 10 )
+
+echo "qsub ${m}_peps.pbs" >> runlist;
+
+set m=(`expr $m + 1`)
+end
+
+chmod 755 runlist

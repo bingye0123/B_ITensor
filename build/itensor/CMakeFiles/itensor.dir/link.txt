@@ -1,0 +1,2 @@
+/usr/bin/ar cr libitensor.a  CMakeFiles/itensor.dir/index.cc.o CMakeFiles/itensor.dir/itensor.cc.o CMakeFiles/itensor.dir/iqindex.cc.o CMakeFiles/itensor.dir/iqtensor.cc.o CMakeFiles/itensor.dir/condenser.cc.o CMakeFiles/itensor.dir/iqcombiner.cc.o CMakeFiles/itensor.dir/svdalgs.cc.o CMakeFiles/itensor.dir/mps.cc.o CMakeFiles/itensor.dir/mpo.cc.o CMakeFiles/itensor.dir/tevol.cc.o CMakeFiles/itensor.dir/itsparse.cc.o CMakeFiles/itensor.dir/iqtsparse.cc.o
+/usr/bin/ranlib libitensor.a

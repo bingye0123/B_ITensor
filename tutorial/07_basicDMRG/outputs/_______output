@@ -1,0 +1,631 @@
+CPU8 35 ~ 40
+CPU10 45 ~ 50
+CPU11 50 ~ 55
+CPU12 55 ~ 60
+CPU13 60 ~ 64
+CPU14 64 ~ 68
+CPU15 68 ~ 72
+CPU9 40 ~ 45
+Number of terms (including Identity operator)=73
+CPU1 0 ~ 5
+CPU2 5 ~ 10
+CPU4 15 ~ 20
+CPU6 25 ~ 30
+CPU7 30 ~ 35
+CPU3 10 ~ 15
+CPU5 20 ~ 25
+Sweep 1, Y=0
+--------------------------------------
+Working on (0,0):
+Cholesky Factorization: successful!
+Energy= 3.9713005667
+--------------------------------------
+
+--------------------------------------
+Working on (1,0):
+Cholesky Factorization: successful!
+Energy= 1.7208534873
+--------------------------------------
+
+--------------------------------------
+Working on (2,0):
+Cholesky Factorization: successful!
+Energy= -0.8419311262
+--------------------------------------
+
+--------------------------------------
+Working on (3,0):
+Cholesky Factorization: successful!
+Energy= -1.5421630977
+--------------------------------------
+
+Sweep 1, Y=1
+--------------------------------------
+Working on (0,1):
+Cholesky Factorization: successful!
+Energy= -5.0199743169
+--------------------------------------
+
+--------------------------------------
+Working on (1,1):
+Cholesky Factorization: successful!
+Energy= -7.2923778513
+--------------------------------------
+
+--------------------------------------
+Working on (2,1):
+Cholesky Factorization: successful!
+Energy= -9.4388695304
+--------------------------------------
+
+--------------------------------------
+Working on (3,1):
+Cholesky Factorization: successful!
+Energy= -10.8563840593
+--------------------------------------
+
+Sweep 1, Y=2
+--------------------------------------
+Working on (0,2):
+Cholesky Factorization: successful!
+Energy= -14.5670348916
+--------------------------------------
+
+--------------------------------------
+Working on (1,2):
+Cholesky Factorization: successful!
+Energy= -16.2099945956
+--------------------------------------
+
+--------------------------------------
+Working on (2,2):
+Cholesky Factorization: successful!
+Energy= -19.9792691173
+--------------------------------------
+
+--------------------------------------
+Working on (3,2):
+Cholesky Factorization: successful!
+Energy= -20.3371125052
+--------------------------------------
+
+Sweep 1, Y=3
+--------------------------------------
+Working on (0,3):
+Cholesky Factorization: successful!
+Energy= -21.5349055558
+--------------------------------------
+
+--------------------------------------
+Working on (1,3):
+Cholesky Factorization: successful!
+Energy= -22.6607467450
+--------------------------------------
+
+--------------------------------------
+Working on (2,3):
+Cholesky Factorization: successful!
+Energy= -24.3012731965
+--------------------------------------
+
+--------------------------------------
+Working on (3,3):
+Cholesky Factorization: successful!
+Energy= -24.6266462311
+--------------------------------------
+
+Sweep 1, Y=3 (backward)
+--------------------------------------
+Working on (2,3) (backward):
+Cholesky Factorization: successful!
+Energy= -24.7745339740
+--------------------------------------
+
+--------------------------------------
+Working on (1,3) (backward):
+Cholesky Factorization: successful!
+Energy= -24.8005561802
+--------------------------------------
+
+--------------------------------------
+Working on (0,3) (backward):
+Cholesky Factorization: successful!
+Energy= -24.8053097964
+--------------------------------------
+
+Sweep 1, Y=2 (backward)
+--------------------------------------
+Working on (3,2) (backward):
+Cholesky Factorization: successful!
+Energy= -24.8732539632
+--------------------------------------
+
+--------------------------------------
+Working on (2,2) (backward):
+Cholesky Factorization: successful!
+Energy= -24.9526770627
+--------------------------------------
+
+--------------------------------------
+Working on (1,2) (backward):
+Cholesky Factorization: successful!
+Energy= -25.0031404512
+--------------------------------------
+
+--------------------------------------
+Working on (0,2) (backward):
+Cholesky Factorization: successful!
+Energy= -25.0124253240
+--------------------------------------
+
+Sweep 1, Y=1 (backward)
+--------------------------------------
+Working on (3,1) (backward):
+Cholesky Factorization: the leading minor of order 64 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (2,1) (backward):
+Cholesky Factorization: the leading minor of order 139 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (1,1) (backward):
+Cholesky Factorization: the leading minor of order 55 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (0,1) (backward):
+Cholesky Factorization: successful!
+Energy= -25.3747290200
+--------------------------------------
+
+Sweep 1, Y=0 (backward)
+--------------------------------------
+Working on (3,0) (backward):
+Cholesky Factorization: the leading minor of order 13 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (2,0) (backward):
+Cholesky Factorization: the leading minor of order 16 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (1,0) (backward):
+Cholesky Factorization: the leading minor of order 67 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+Sweep 2, Y=0
+--------------------------------------
+Working on (0,0):
+Cholesky Factorization: successful!
+Energy= -25.5177118670
+--------------------------------------
+
+--------------------------------------
+Working on (1,0):
+Cholesky Factorization: the leading minor of order 61 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (2,0):
+Cholesky Factorization: the leading minor of order 16 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (3,0):
+Cholesky Factorization: the leading minor of order 13 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+Sweep 2, Y=1
+--------------------------------------
+Working on (0,1):
+Cholesky Factorization: successful!
+Energy= -25.4447092775
+--------------------------------------
+
+--------------------------------------
+Working on (1,1):
+Cholesky Factorization: the leading minor of order 61 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (2,1):
+Cholesky Factorization: the leading minor of order 58 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (3,1):
+Cholesky Factorization: the leading minor of order 19 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+Sweep 2, Y=2
+--------------------------------------
+Working on (0,2):
+Cholesky Factorization: successful!
+Energy= -24.7588278406
+--------------------------------------
+
+--------------------------------------
+Working on (1,2):
+Cholesky Factorization: successful!
+Energy= -24.9622397068
+--------------------------------------
+
+--------------------------------------
+Working on (2,2):
+Cholesky Factorization: successful!
+Energy= -24.9974030555
+--------------------------------------
+
+--------------------------------------
+Working on (3,2):
+Cholesky Factorization: successful!
+Energy= -25.0016441342
+--------------------------------------
+
+Sweep 2, Y=3
+--------------------------------------
+Working on (0,3):
+Cholesky Factorization: successful!
+Energy= -25.0067659229
+--------------------------------------
+
+--------------------------------------
+Working on (1,3):
+Cholesky Factorization: successful!
+Energy= -25.0144142213
+--------------------------------------
+
+--------------------------------------
+Working on (2,3):
+Cholesky Factorization: successful!
+Energy= -25.0215553070
+--------------------------------------
+
+--------------------------------------
+Working on (3,3):
+Cholesky Factorization: successful!
+Energy= -25.0242524074
+--------------------------------------
+
+Sweep 2, Y=3 (backward)
+--------------------------------------
+Working on (2,3) (backward):
+Cholesky Factorization: successful!
+Energy= -25.0256183636
+--------------------------------------
+
+--------------------------------------
+Working on (1,3) (backward):
+Cholesky Factorization: successful!
+Energy= -25.0289458337
+--------------------------------------
+
+--------------------------------------
+Working on (0,3) (backward):
+Cholesky Factorization: successful!
+Energy= -25.0303560997
+--------------------------------------
+
+Sweep 2, Y=2 (backward)
+--------------------------------------
+Working on (3,2) (backward):
+Cholesky Factorization: successful!
+Energy= -25.0158481177
+--------------------------------------
+
+--------------------------------------
+Working on (2,2) (backward):
+Cholesky Factorization: successful!
+Energy= -25.0218527888
+--------------------------------------
+
+--------------------------------------
+Working on (1,2) (backward):
+Cholesky Factorization: successful!
+Energy= -25.0362261079
+--------------------------------------
+
+--------------------------------------
+Working on (0,2) (backward):
+Cholesky Factorization: successful!
+Energy= -25.0424069110
+--------------------------------------
+
+Sweep 2, Y=1 (backward)
+--------------------------------------
+Working on (3,1) (backward):
+Cholesky Factorization: successful!
+Energy= -25.6192709796
+--------------------------------------
+
+--------------------------------------
+Working on (2,1) (backward):
+Cholesky Factorization: the leading minor of order 61 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (1,1) (backward):
+Cholesky Factorization: the leading minor of order 109 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (0,1) (backward):
+Cholesky Factorization: successful!
+Energy= -26.3294513359
+--------------------------------------
+
+Sweep 2, Y=0 (backward)
+--------------------------------------
+Working on (3,0) (backward):
+Cholesky Factorization: the leading minor of order 16 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (2,0) (backward):
+Cholesky Factorization: the leading minor of order 19 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (1,0) (backward):
+Cholesky Factorization: the leading minor of order 73 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+Sweep 3, Y=0
+--------------------------------------
+Working on (0,0):
+Cholesky Factorization: successful!
+Energy= -61.2204716340
+--------------------------------------
+
+--------------------------------------
+Working on (1,0):
+Cholesky Factorization: the leading minor of order 52 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (2,0):
+Cholesky Factorization: the leading minor of order 16 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (3,0):
+Cholesky Factorization: the leading minor of order 16 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+Sweep 3, Y=1
+--------------------------------------
+Working on (0,1):
+Cholesky Factorization: successful!
+Energy= -23.1541560772
+--------------------------------------
+
+--------------------------------------
+Working on (1,1):
+Cholesky Factorization: the leading minor of order 70 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (2,1):
+Cholesky Factorization: the leading minor of order 127 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (3,1):
+Cholesky Factorization: successful!
+Energy= -29.4706030452
+--------------------------------------
+
+Sweep 3, Y=2
+--------------------------------------
+Working on (0,2):
+Cholesky Factorization: successful!
+Energy= -19.9606212349
+--------------------------------------
+
+--------------------------------------
+Working on (1,2):
+Cholesky Factorization: successful!
+Energy= -20.6076814795
+--------------------------------------
+
+--------------------------------------
+Working on (2,2):
+Cholesky Factorization: the leading minor of order 214 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (3,2):
+Cholesky Factorization: successful!
+Energy= -20.7510407236
+--------------------------------------
+
+Sweep 3, Y=3
+--------------------------------------
+Working on (0,3):
+Cholesky Factorization: successful!
+Energy= -20.7595991880
+--------------------------------------
+
+--------------------------------------
+Working on (1,3):
+Cholesky Factorization: successful!
+Energy= -20.7802109687
+--------------------------------------
+
+--------------------------------------
+Working on (2,3):
+Cholesky Factorization: successful!
+Energy= -59.7383896492
+--------------------------------------
+
+--------------------------------------
+Working on (3,3):
+Cholesky Factorization: the leading minor of order 10 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+Sweep 3, Y=3 (backward)
+--------------------------------------
+Working on (2,3) (backward):
+Cholesky Factorization: successful!
+Energy= -59.7383896492
+--------------------------------------
+
+--------------------------------------
+Working on (1,3) (backward):
+Cholesky Factorization: the leading minor of order 46 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (0,3) (backward):
+Cholesky Factorization: the leading minor of order 7 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+Sweep 3, Y=2 (backward)
+--------------------------------------
+Working on (3,2) (backward):
+Cholesky Factorization: successful!
+Energy= -19.8072392111
+--------------------------------------
+
+--------------------------------------
+Working on (2,2) (backward):
+Cholesky Factorization: the leading minor of order 88 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (1,2) (backward):
+Cholesky Factorization: the leading minor of order 187 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (0,2) (backward):
+Cholesky Factorization: successful!
+Energy= -20.1549891864
+--------------------------------------
+
+Sweep 3, Y=1 (backward)
+--------------------------------------
+Working on (3,1) (backward):
+Cholesky Factorization: the leading minor of order 46 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (2,1) (backward):
+Cholesky Factorization: the leading minor of order 109 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (1,1) (backward):
+Cholesky Factorization: the leading minor of order 61 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (0,1) (backward):
+Cholesky Factorization: successful!
+Energy= -20.3927429871
+--------------------------------------
+
+Sweep 3, Y=0 (backward)
+--------------------------------------
+Working on (3,0) (backward):
+Cholesky Factorization: successful!
+Energy= -22.4394758765
+--------------------------------------
+
+--------------------------------------
+Working on (2,0) (backward):
+Cholesky Factorization: the leading minor of order 25 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (1,0) (backward):
+Cholesky Factorization: the leading minor of order 73 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+Sweep 4, Y=0
+--------------------------------------
+Working on (0,0):
+Cholesky Factorization: successful!
+Energy= -27.1392902683
+--------------------------------------
+
+--------------------------------------
+Working on (1,0):
+Cholesky Factorization: the leading minor of order 58 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (2,0):
+Cholesky Factorization: the leading minor of order 25 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (3,0):
+Cholesky Factorization: successful!
+Energy= -27.3381251236
+--------------------------------------
+
+Sweep 4, Y=1
+--------------------------------------
+Working on (0,1):
+Cholesky Factorization: the leading minor of order 73 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (1,1):
+Cholesky Factorization: the leading minor of order 52 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (2,1):
+Cholesky Factorization: the leading minor of order 82 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+--------------------------------------
+Working on (3,1):
+Cholesky Factorization: the leading minor of order 37 is not positive definite!
+Positive definiteness: skip updating current site!!!
+--------------------------------------
+
+Sweep 4, Y=2

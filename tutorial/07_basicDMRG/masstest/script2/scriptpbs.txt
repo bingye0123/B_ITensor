@@ -1,0 +1,15 @@
+#!/bin/tcsh
+
+set m=1
+while ( $m <= 100 )
+
+set orig="peps.pbs";
+#echo $orig;
+
+set outf="${m}_peps.pbs";
+#echo $outf
+
+sed "7s/zz/${m}/" $orig > $outf;
+
+set m=(`expr $m + 1`)
+end

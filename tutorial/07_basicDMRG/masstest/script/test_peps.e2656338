@@ -1,0 +1,46 @@
+tput: No value for $TERM and no -T specified
+[compute-1-33:69402] *** Process received signal ***
+[compute-1-33:69402] Signal: Segmentation fault (11)
+[compute-1-33:69402] Signal code: Address not mapped (1)
+[compute-1-33:69402] Failing at address: 0x28
+[compute-1-33:69403] *** Process received signal ***
+[compute-1-33:69403] Signal: Segmentation fault (11)
+[compute-1-33:69403] Signal code: Address not mapped (1)
+[compute-1-33:69403] Failing at address: 0x28
+[compute-1-33:69402] [ 0] /lib64/libpthread.so.0() [0x342f20f500]
+[compute-1-33:69402] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-1-33:69402] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-1-33:69402] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-1-33:69402] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-1-33:69402] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-1-33:69402] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-1-33:69402] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x342ea1ecdd]
+[compute-1-33:69402] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-1-33:69402] *** End of error message ***
+[compute-1-33:69403] [ 0] /lib64/libpthread.so.0() [0x342f20f500]
+[compute-1-33:69403] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-1-33:69403] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-1-33:69403] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-1-33:69403] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-1-33:69403] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-1-33:69403] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-1-33:69403] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x342ea1ecdd]
+[compute-1-33:69403] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-1-33:69403] *** End of error message ***
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 14 with PID 69403 on node compute-1-33.local exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[compute-1-33:69404] *** Process received signal ***
+[compute-1-33:69404] Signal: Segmentation fault (11)
+[compute-1-33:69404] Signal code: Address not mapped (1)
+[compute-1-33:69404] Failing at address: 0x28
+[compute-1-33:69404] [ 0] /lib64/libpthread.so.0() [0x342f20f500]
+[compute-1-33:69404] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-1-33:69404] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-1-33:69404] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-1-33:69404] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-1-33:69404] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-1-33:69404] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-1-33:69404] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x342ea1ecdd]
+[compute-1-33:69404] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-1-33:69404] *** End of error message ***

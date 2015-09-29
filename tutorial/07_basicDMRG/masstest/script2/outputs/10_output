@@ -1,0 +1,17 @@
+Number of terms (including Identity operator)=73
+CPU2 5 ~ 10
+CPU4 15 ~ 20
+CPU6 25 ~ 30
+CPU1 0 ~ 5
+CPU3 10 ~ 15
+CPU7 30 ~ 35
+CPU8 35 ~ 40
+CPU9 40 ~ 45
+CPU10 45 ~ 50
+CPU11 50 ~ 55
+CPU12 55 ~ 60
+CPU14 64 ~ 68
+CPU15 68 ~ 72
+CPU5 20 ~ 25
+CPU13 60 ~ 64
+16 total processes killed (some possibly by mpiexec during cleanup)

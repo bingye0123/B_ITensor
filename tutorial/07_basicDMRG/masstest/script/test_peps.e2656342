@@ -1,0 +1,46 @@
+tput: No value for $TERM and no -T specified
+[compute-2-2:09762] *** Process received signal ***
+[compute-2-2:09763] *** Process received signal ***
+[compute-2-2:09763] Signal: Segmentation fault (11)
+[compute-2-2:09763] Signal code: Address not mapped (1)
+[compute-2-2:09763] Failing at address: 0x28
+[compute-2-2:09764] *** Process received signal ***
+[compute-2-2:09764] Signal: Segmentation fault (11)
+[compute-2-2:09764] Signal code: Address not mapped (1)
+[compute-2-2:09764] Failing at address: 0x28
+[compute-2-2:09762] Signal: Segmentation fault (11)
+[compute-2-2:09762] Signal code: Address not mapped (1)
+[compute-2-2:09762] Failing at address: 0x28
+[compute-2-2:09763] [ 0] /lib64/libpthread.so.0() [0x335e20f500]
+[compute-2-2:09764] [ 0] /lib64/libpthread.so.0() [0x335e20f500]
+[compute-2-2:09764] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-2-2:09764] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-2-2:09764] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-2-2:09764] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-2-2:09764] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-2-2:09764] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-2-2:09764] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x335da1ecdd]
+[compute-2-2:09764] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-2-2:09764] *** End of error message ***
+[compute-2-2:09763] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-2-2:09763] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-2-2:09762] [ 0] /lib64/libpthread.so.0() [0x335e20f500]
+[compute-2-2:09762] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-2-2:09762] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-2-2:09762] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-2-2:09762] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-2-2:09762] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-2-2:09762] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-2-2:09762] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x335da1ecdd]
+[compute-2-2:09762] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-2-2:09762] *** End of error message ***
+[compute-2-2:09763] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-2-2:09763] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-2-2:09763] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-2-2:09763] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-2-2:09763] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x335da1ecdd]
+[compute-2-2:09763] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-2-2:09763] *** End of error message ***
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 15 with PID 9764 on node compute-2-2.local exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

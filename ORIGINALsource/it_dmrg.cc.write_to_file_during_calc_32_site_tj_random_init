@@ -1,0 +1,182 @@
+
+#include "symMonteCarlo.h"
+
+#include "core.h"
+
+#include "model/tjmod.h"
+#include "hams/tJham.h"
+//#include "model/hubbardmod.h"
+//#include "hams/ExtendedHubbardham.h"
+
+using boost::format;
+using namespace std;
+
+typedef tJ
+//typedef Hubbard
+states;
+
+//number of electrons
+const extern int Nferm=24;
+//number of Monte Carlo thermalization steps
+const extern int Monte_Carlo_ntherm=100;
+//number of Monte Carlo measurement
+const extern int Monte_Carlo_nmeasure=200;
+//number of steps between measurement
+const extern int Monte_Carlo_n_between_measure=6;
+
+
+
+int
+main(int argc, char* argv[])
+{
+//  MPI::Init(argc, argv); // initialize MPI environment
+    int N = 32;
+    
+    //
+    // Initialize the site degrees of freedom.
+    //
+    states model(N);    // make a chain of N spins
+    
+    //
+    // Create the Hamiltonian matrix product operator (MPO)
+    //
+    IQMPO H = tJChain(model,Opt("J",0.5)& Opt("t",1.0));
+    //const IQMPO H = ExtendedHubbard(model,Opt("U",2.0)& Opt("t1",1)& Opt("t2",0.0)& Opt("V1",0));
+	
+    //
+    // Set the initial wavefunction matrix product state (MPS)
+    // to be a Neel state.
+    //
+    InitState initState(model);
+    
+    ITiVec init_state_vec=initialize_random_state_vec_tj(N,Nferm); 
+
+    cout<<"initial state: "<<init_state_vec<<endl;
+    for(int i=1;i<=N;i++)
+    {
+      if(init_state_vec(i-1)==1)
+      {
+	initState.set(i,"Emp");
+      }
+      else if(init_state_vec(i-1)==2)
+      {
+	initState.set(i,"Up");
+      }
+      else if(init_state_vec(i-1)==3)
+      {
+	initState.set(i,"Dn");
+      }
+      else
+      {
+	cout<<"InitState Error"<<endl;
+	exit(0);
+      }
+    }
+    
+    IQMPS psi(initState);
+
+    //
+    // psiHphi calculates matrix elements of MPO's with respect to MPS's
+    // psiHphi(psi,H,psi) = <psi|H|psi>
+    //
+    cout << totalQN(psi) << endl;
+	cout << format("Initial energy = %.5f") % psiHphi(psi,H,psi) << endl;
+
+    //
+    // Set the parameters controlling the accuracy of the DMRG
+    // calculation for each DMRG sweep.
+    // Here less than 5 cutoff values are provided, for example,
+    // so all remaining sweeps will use the last one given (= 1E-10).
+    //
+
+    int Nsweeps=96;
+    Sweeps sweeps(Nsweeps);
+    sweeps.maxm() = 10,10,20,20,20,20,100,100,100,100,100,200,200,200,200,200,500,500,500,500,500,500,500,500,1000,1000,1000,1000,1000,1000,1000,1000,2000,2000,2000,2000,2000,2000,2000,2000,3000,3000,3000,3000,3000,3000,3000,3000,4000,4000,4000,4000,4000,4000,4000,4000,5000,5000,5000,5000,5000,5000,5000,5000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000;
+
+    sweeps.cutoff() = 1E-10,1E-10,0.;
+    sweeps.niter() = 2;
+    sweeps.noise() = 1E-7,1E-7,1E-8,1E-8,1E-8,1E-8,1E-8,1E-9,1E-9,1E-9,1E-9,1E-9,0.;
+    cout << sweeps;
+    
+    //
+    // Begin the DMRG calculation
+    //
+    for(int i=1;i<=Nsweeps;i++)
+    {
+    cout<<"sweep: "<<i<<endl;
+    Sweeps sweep1(1);
+    sweep1.maxm()=sweeps.maxm(i);
+    sweep1.cutoff() = sweeps.cutoff(i);
+    sweep1.niter() = sweeps.niter(i);
+    sweep1.noise() = sweeps.noise(i);
+    cout << sweep1;
+      
+    Real En = dmrg(psi,H,sweep1,Quiet());
+    //
+    // Print the final energy reported by DMRG
+    //
+    cout << format("\nGround State Energy = %.10f")%En << endl;
+    
+    if(i%8==0)
+    {
+      cout<<"Writing to disk: sweep i="<<i<<endl;
+      cout << sweep1;
+    	writeToFile("psi_dat",psi);
+	writeToFile("model_dat",model);
+	writeToFile("Ham_dat",H);
+      cout<<"Writing done."<<endl;
+    
+    
+    cout  <<"Energy: " << psiHphi(psi,H,psi)<<endl;
+
+	psi.position(1);
+	cout << "Norm2: " << Dot(conj(psi.A(1)), psi.A(1))<<endl;
+	
+	itpp::Vec<double> nup_vec(N),ndn_vec(N);
+	
+	for(int j=1; j<=N; j++) {
+		IQTensor nup_op = model.op("Nup",j);
+	        IQTensor ndn_op = model.op("Ndn",j);
+		psi.position(j);
+		IQTensor ket = psi.A(j);
+		IQTensor bra = conj(primed(ket,Site));
+		nup_vec(j-1) = Dot(bra, nup_op*ket);
+		ndn_vec(j-1) = Dot(bra, ndn_op*ket);
+	}
+	
+	cout<<"Nup: "<<nup_vec<<endl;
+	cout<<"Ndn: "<<ndn_vec<<endl;
+	cout<<"Total N: "<<nup_vec+ndn_vec<<endl;
+	cout<<"Sz: "<<0.5*(nup_vec-ndn_vec)<<endl;
+	
+	psi.position(1);
+	
+    }
+    
+    
+    }
+  
+
+    
+    
+    
+	
+//    MPI::Finalize();
+
+/*
+	ITiVec inv_sym_mapping_table(N);
+	//inversion: site -> N-1-site
+	for(int i=0;i<inv_sym_mapping_table.size();i++)
+	{
+	  inv_sym_mapping_table(i)=N-1-i;
+	}
+	for(int i=0;i<1;i++)
+	{
+	cout<<"sym eigval: "<<symmetry_eigval_hubbard(psi,inv_sym_mapping_table)<<endl;
+	}
+*/
+	
+    return 0;
+}
+
+

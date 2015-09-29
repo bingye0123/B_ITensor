@@ -1,0 +1,68 @@
+Number of terms (including Identity operator)=73
+CPU1 0 ~ 5
+CPU2 5 ~ 10
+CPU3 10 ~ 15
+CPU4 15 ~ 20
+CPU5 20 ~ 25
+CPU6 25 ~ 30
+CPU7 30 ~ 35
+CPU8 35 ~ 40
+CPU9 40 ~ 45
+CPU10 45 ~ 50
+CPU11 50 ~ 55
+CPU12 55 ~ 60
+CPU13 60 ~ 64
+CPU14 64 ~ 68
+CPU15 68 ~ 72
+Sweep 1, Y=0
+--------------------------------------
+Working on (0,0):
+Cholesky Factorization: successful!
+Energy= 4.5073358242
+--------------------------------------
+
+--------------------------------------
+Working on (1,0):
+Cholesky Factorization: successful!
+Energy= 2.3479488392
+--------------------------------------
+
+--------------------------------------
+Working on (2,0):
+Cholesky Factorization: successful!
+Energy= 0.5322789701
+--------------------------------------
+
+--------------------------------------
+Working on (3,0):
+Cholesky Factorization: successful!
+Energy= -1.6927731008
+--------------------------------------
+
+Sweep 1, Y=1
+--------------------------------------
+Working on (0,1):
+Cholesky Factorization: successful!
+Energy= -5.4829082564
+--------------------------------------
+
+--------------------------------------
+Working on (1,1):
+Cholesky Factorization: successful!
+Energy= -9.4983444346
+--------------------------------------
+
+--------------------------------------
+Working on (2,1):
+Cholesky Factorization: successful!
+Energy= -10.8827148143
+--------------------------------------
+
+--------------------------------------
+Working on (3,1):
+Cholesky Factorization: successful!
+Energy= -12.5117052717
+--------------------------------------
+
+Sweep 1, Y=2
+16 total processes killed (some possibly by mpiexec during cleanup)

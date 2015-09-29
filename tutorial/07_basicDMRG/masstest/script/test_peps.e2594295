@@ -1,0 +1,21 @@
+tput: No value for $TERM and no -T specified
+info is 64
+From line 40, file generalizedev.h
+
+Error in call to dsygv
+[compute-3-18:109737] *** Process received signal ***
+[compute-3-18:109737] Signal: Aborted (6)
+[compute-3-18:109737] Signal code:  (-6)
+[compute-3-18:109737] [ 0] /lib64/libpthread.so.0() [0x3ff520f500]
+[compute-3-18:109737] [ 1] /lib64/libc.so.6(gsignal+0x35) [0x3ff4a328a5]
+[compute-3-18:109737] [ 2] /lib64/libc.so.6(abort+0x175) [0x3ff4a34085]
+[compute-3-18:109737] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_Z5errorRKSsiPKc+0x1ce) [0x50823e]
+[compute-3-18:109737] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor23GeneralizedEigenProblemERKNS_9MatrixRefENS_6MatrixERNS_6VectorERS3_+0x1ac) [0x42273c]
+[compute-3-18:109737] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0xa4fd) [0x4866bd]
+[compute-3-18:109737] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1067) [0x4905a7]
+[compute-3-18:109737] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x3ff4a1ecdd]
+[compute-3-18:109737] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-3-18:109737] *** End of error message ***
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 0 with PID 109737 on node compute-3-18.local exited on signal 6 (Aborted).
+--------------------------------------------------------------------------

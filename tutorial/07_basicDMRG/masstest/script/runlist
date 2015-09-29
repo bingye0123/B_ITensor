@@ -1,0 +1,10 @@
+qsub 1_peps.pbs
+qsub 2_peps.pbs
+qsub 3_peps.pbs
+qsub 4_peps.pbs
+qsub 5_peps.pbs
+qsub 6_peps.pbs
+qsub 7_peps.pbs
+qsub 8_peps.pbs
+qsub 9_peps.pbs
+qsub 10_peps.pbs

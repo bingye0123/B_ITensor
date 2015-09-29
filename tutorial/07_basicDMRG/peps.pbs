@@ -1,0 +1,7 @@
+#/bin/tcsh
+#PBS -l mem=63gb,nodes=1:ppn=4,walltime=120:00:00
+#PBS -m abe -M yeba@bc.edu
+#PBS -N test_sympeps
+cd /home/yeba/symPEPS/B_ITensor/tutorial/07_basicDMRG
+/opt/openmpi/bin/mpiexec -n 4 -hostfile $PBS_NODEFILE \
+/home/yeba/symPEPS/B_ITensor/tutorial/07_basicDMRG/basicDMRG > output

@@ -1,0 +1,363 @@
+Number of terms (including Identity operator)=13
+CPU1 0 ~ 6
+CPU2 6 ~ 12
+rank=2, i=6, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,215):3, s0'(Site',215):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (1,2) 0.7071067812
+  (2,3) 0.7071067812
+
+rank=2, i=6, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,3099):3, s1'(Site',3099):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=6, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9304):3, s2'(Site',9304):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (2,1) 0.7071067812
+  (3,2) 0.7071067812
+
+rank=2, i=6, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,5898):3, s3'(Site',5898):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=7, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,215):3, s0'(Site',215):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=7, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,3099):3, s1'(Site',3099):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (1,2) 0.7071067812
+  (2,3) 0.7071067812
+
+rank=2, i=7, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9304):3, s2'(Site',9304):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=7, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,5898):3, s3'(Site',5898):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (2,1) 0.7071067812
+  (3,2) 0.7071067812
+
+rank=2, i=8, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,215):3, s0'(Site',215):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (2,1) 0.7071067812
+  (3,2) 0.7071067812
+
+rank=2, i=8, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,3099):3, s1'(Site',3099):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (1,2) 0.7071067812
+  (2,3) 0.7071067812
+
+rank=2, i=8, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9304):3, s2'(Site',9304):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=8, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,5898):3, s3'(Site',5898):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=9, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,215):3, s0'(Site',215):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=9, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,3099):3, s1'(Site',3099):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=9, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9304):3, s2'(Site',9304):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (2,1) 0.7071067812
+  (3,2) 0.7071067812
+
+rank=2, i=9, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,5898):3, s3'(Site',5898):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (1,2) 0.7071067812
+  (2,3) 0.7071067812
+
+rank=2, i=10, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,215):3, s0'(Site',215):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (2,1) 0.7071067812
+  (3,2) 0.7071067812
+
+rank=2, i=10, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,3099):3, s1'(Site',3099):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=10, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9304):3, s2'(Site',9304):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (1,2) 0.7071067812
+  (2,3) 0.7071067812
+
+rank=2, i=10, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,5898):3, s3'(Site',5898):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=11, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,215):3, s0'(Site',215):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=11, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,3099):3, s1'(Site',3099):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (2,1) 0.7071067812
+  (3,2) 0.7071067812
+
+rank=2, i=11, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9304):3, s2'(Site',9304):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=2, i=11, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,5898):3, s3'(Site',5898):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (1,2) 0.7071067812
+  (2,3) 0.7071067812
+
+rank=1, i=0, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,1286):3, s0'(Site',1286):3
+  {log(scale)[incl in elems]=0, L=9,N=1.41}
+  (1,1) 1.0000000000
+  (3,3) -1.0000000000
+
+rank=1, i=0, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,8186):3, s1'(Site',8186):3
+  {log(scale)[incl in elems]=0, L=9,N=1.41}
+  (1,1) 1.0000000000
+  (3,3) -1.0000000000
+
+rank=1, i=0, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9330):3, s2'(Site',9330):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=0, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,6165):3, s3'(Site',6165):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=1, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,1286):3, s0'(Site',1286):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=1, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,8186):3, s1'(Site',8186):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=1, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9330):3, s2'(Site',9330):3
+  {log(scale)[incl in elems]=0, L=9,N=1.41}
+  (1,1) 1.0000000000
+  (3,3) -1.0000000000
+
+rank=1, i=1, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,6165):3, s3'(Site',6165):3
+  {log(scale)[incl in elems]=0, L=9,N=1.41}
+  (1,1) 1.0000000000
+  (3,3) -1.0000000000
+
+rank=1, i=2, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,1286):3, s0'(Site',1286):3
+  {log(scale)[incl in elems]=0, L=9,N=1.41}
+  (1,1) 1.0000000000
+  (3,3) -1.0000000000
+
+rank=1, i=2, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,8186):3, s1'(Site',8186):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=2, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9330):3, s2'(Site',9330):3
+  {log(scale)[incl in elems]=0, L=9,N=1.41}
+  (1,1) 1.0000000000
+  (3,3) -1.0000000000
+
+rank=1, i=2, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,6165):3, s3'(Site',6165):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=3, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,1286):3, s0'(Site',1286):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=3, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,8186):3, s1'(Site',8186):3
+  {log(scale)[incl in elems]=0, L=9,N=1.41}
+  (1,1) 1.0000000000
+  (3,3) -1.0000000000
+
+rank=1, i=3, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9330):3, s2'(Site',9330):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=3, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,6165):3, s3'(Site',6165):3
+  {log(scale)[incl in elems]=0, L=9,N=1.41}
+  (1,1) 1.0000000000
+  (3,3) -1.0000000000
+
+rank=1, i=4, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,1286):3, s0'(Site',1286):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (1,2) 0.7071067812
+  (2,3) 0.7071067812
+
+rank=1, i=4, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,8186):3, s1'(Site',8186):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (2,1) 0.7071067812
+  (3,2) 0.7071067812
+
+rank=1, i=4, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9330):3, s2'(Site',9330):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=4, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,6165):3, s3'(Site',6165):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=5, x=0
+O[x+N*i] =
+ITensor r = 2: s0(Site,1286):3, s0'(Site',1286):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=5, x=1
+O[x+N*i] =
+ITensor r = 2: s1(Site,8186):3, s1'(Site',8186):3
+  {log(scale)[incl in elems]=0, L=9,N=1.73}
+  (1,1) 1.0000000000
+  (2,2) 1.0000000000
+  (3,3) 1.0000000000
+
+rank=1, i=5, x=2
+O[x+N*i] =
+ITensor r = 2: s2(Site,9330):3, s2'(Site',9330):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (1,2) 0.7071067812
+  (2,3) 0.7071067812
+
+rank=1, i=5, x=3
+O[x+N*i] =
+ITensor r = 2: s3(Site,6165):3, s3'(Site',6165):3
+  {log(scale)[incl in elems]=0, L=9,N=1.00}
+  (2,1) 0.7071067812
+  (3,2) 0.7071067812
+

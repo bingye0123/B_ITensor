@@ -1,0 +1,46 @@
+tput: No value for $TERM and no -T specified
+[compute-2-8:22228] *** Process received signal ***
+[compute-2-8:22226] *** Process received signal ***
+[compute-2-8:22226] Signal: Segmentation fault (11)
+[compute-2-8:22226] Signal code: Address not mapped (1)
+[compute-2-8:22226] Failing at address: 0x28
+[compute-2-8:22228] Signal: Segmentation fault (11)
+[compute-2-8:22228] Signal code: Address not mapped (1)
+[compute-2-8:22228] Failing at address: 0x28
+[compute-2-8:22228] [ 0] /lib64/libpthread.so.0() [0x3f4380f500]
+[compute-2-8:22226] [ 0] /lib64/libpthread.so.0() [0x3f4380f500]
+[compute-2-8:22226] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-2-8:22226] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-2-8:22226] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-2-8:22226] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-2-8:22226] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-2-8:22226] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-2-8:22226] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x3f4301ecdd]
+[compute-2-8:22226] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-2-8:22226] *** End of error message ***
+[compute-2-8:22228] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-2-8:22228] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-2-8:22228] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-2-8:22228] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-2-8:22228] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-2-8:22228] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-2-8:22228] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x3f4301ecdd]
+[compute-2-8:22228] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-2-8:22228] *** End of error message ***
+[compute-2-8:22227] *** Process received signal ***
+[compute-2-8:22227] Signal: Segmentation fault (11)
+[compute-2-8:22227] Signal code: Address not mapped (1)
+[compute-2-8:22227] Failing at address: 0x28
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 13 with PID 22226 on node compute-2-8.local exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[compute-2-8:22227] [ 0] /lib64/libpthread.so.0() [0x3f4380f500]
+[compute-2-8:22227] [ 1] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor6Vector4copyERKS0_+0x16) [0x4faae6]
+[compute-2-8:22227] [ 2] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor8soloRealEv+0x3f) [0x4b820f]
+[compute-2-8:22227] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensor4soloEv+0x9) [0x4b8269]
+[compute-2-8:22227] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor7ITensorclERKNS_8IndexValES3_+0x21) [0x4c5d61]
+[compute-2-8:22227] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x133a) [0x47c26a]
+[compute-2-8:22227] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1190) [0x4a0430]
+[compute-2-8:22227] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x3f4301ecdd]
+[compute-2-8:22227] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-2-8:22227] *** End of error message ***

@@ -1,0 +1,8 @@
+tput: No value for $TERM and no -T specified
+mpiexec: killing job...
+
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 0 with PID 22719 on node compute-1-48.local exited on signal 0 (Unknown signal 0).
+--------------------------------------------------------------------------
+mpiexec: clean termination accomplished
+

@@ -1,0 +1,22 @@
+tput: No value for $TERM and no -T specified
+info is 718
+From line 40, file generalizedev.h
+
+Error in call to dsygv
+[compute-3-29:53105] *** Process received signal ***
+[compute-3-29:53105] Signal: Aborted (6)
+[compute-3-29:53105] Signal code:  (-6)
+[compute-3-29:53105] [ 0] /lib64/libpthread.so.0() [0x3bf600f500]
+[compute-3-29:53105] [ 1] /lib64/libc.so.6(gsignal+0x35) [0x3bf58328a5]
+[compute-3-29:53105] [ 2] /lib64/libc.so.6(abort+0x175) [0x3bf5834085]
+[compute-3-29:53105] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script2/basicDMRG(_Z5errorRKSsiPKc+0x1ce) [0x518b0e]
+[compute-3-29:53105] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script2/basicDMRG(_ZN7itensor23GeneralizedEigenProblemERKNS_9MatrixRefENS_6MatrixERNS_6VectorERS3_+0x1ac) [0x42273c]
+[compute-3-29:53105] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script2/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x1f71f) [0x49b9af]
+[compute-3-29:53105] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script2/basicDMRG(main+0x1067) [0x4a0e77]
+[compute-3-29:53105] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x3bf581ecdd]
+[compute-3-29:53105] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script2/basicDMRG() [0x4203a9]
+[compute-3-29:53105] *** End of error message ***
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 0 with PID 53105 on node compute-3-29.local exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[compute-3-20.local][[22401,1],8][btl_tcp_frag.c:216:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)

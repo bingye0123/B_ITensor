@@ -1,0 +1,35 @@
+
+psi =
+ITensor r = 1: s(Link,4872):2
+  {log(scale)[incl in elems]=0, L=2,N=2.00}
+  (1) 2.0000000000
+
+
+Sz =
+ITensor r = 2: s(Link,4872):2, s'(Link',4872):2
+  {log(scale)[incl in elems]=0, L=4,N=0.71}
+  (1,1) 0.5000000000
+  (2,2) -0.5000000000
+
+
+Sx =
+ITensor r = 2: s(Link,4872):2, s'(Link',4872):2
+  {log(scale)[incl in elems]=0, L=4,N=0.71}
+  (2,1) 0.5000000000
+  (1,2) 0.5000000000
+
+
+phi =
+ITensor r = 1: s(Link,4872):2
+  {log(scale)[incl in elems]=0, L=2,N=1.00}
+  (2) 1.0000000000
+
+
+psi =
+ITensor r = 1: s(Link,4872):2
+  {log(scale)[incl in elems]=0, L=2,N=1.00}
+  (1) 0.9238795325
+  (2) 0.3826834324
+
+<Sz> = 0.353553
+<Sx> = 0.353553

@@ -1,0 +1,22 @@
+tput: No value for $TERM and no -T specified
+info is 703
+From line 40, file generalizedev.h
+
+Error in call to dsygv
+[compute-1-62:70764] *** Process received signal ***
+[compute-1-62:70764] Signal: Aborted (6)
+[compute-1-62:70764] Signal code:  (-6)
+[compute-1-62:70764] [ 0] /lib64/libpthread.so.0() [0x344380f500]
+[compute-1-62:70764] [ 1] /lib64/libc.so.6(gsignal+0x35) [0x34430328a5]
+[compute-1-62:70764] [ 2] /lib64/libc.so.6(abort+0x175) [0x3443034085]
+[compute-1-62:70764] [ 3] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_Z5errorRKSsiPKc+0x1ce) [0x51949e]
+[compute-1-62:70764] [ 4] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor23GeneralizedEigenProblemERKNS_9MatrixRefENS_6MatrixERNS_6VectorERS3_+0x1ac) [0x422c6c]
+[compute-1-62:70764] [ 5] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(_ZN7itensor9main_loopEiiiiiP19ompi_communicator_t+0x1e943) [0x49abc3]
+[compute-1-62:70764] [ 6] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG(main+0x1067) [0x4a1827]
+[compute-1-62:70764] [ 7] /lib64/libc.so.6(__libc_start_main+0xfd) [0x344301ecdd]
+[compute-1-62:70764] [ 8] /home/yeba/B_ITensor/tutorial/07_basicDMRG/masstest/script/basicDMRG() [0x4203a9]
+[compute-1-62:70764] *** End of error message ***
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 0 with PID 70764 on node compute-1-62.local exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[compute-1-64.local][[22090,1],8][btl_tcp_frag.c:216:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)

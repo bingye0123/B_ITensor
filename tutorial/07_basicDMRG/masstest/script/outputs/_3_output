@@ -1,0 +1,333 @@
+CPU1 0 ~ 5
+Number of terms (including Identity operator)=73
+CPU3 10 ~ 15
+CPU4 15 ~ 20
+CPU2 5 ~ 10
+CPU8 35 ~ 40
+CPU9 40 ~ 45
+CPU11 50 ~ 55
+CPU12 55 ~ 60
+CPU5 20 ~ 25
+CPU10 45 ~ 50
+CPU13 60 ~ 64
+CPU6 25 ~ 30
+CPU7 30 ~ 35
+CPU14 64 ~ 68
+CPU15 68 ~ 72
+Sweep 1, Y=0
+--------------------------------------
+Working on (0,0):
+Cholesky Factorization: successful!
+Energy= 4.6639720759
+--------------------------------------
+
+--------------------------------------
+Working on (1,0):
+Cholesky Factorization: successful!
+Energy= 2.0294849037
+--------------------------------------
+
+--------------------------------------
+Working on (2,0):
+Cholesky Factorization: successful!
+Energy= -1.1466823695
+--------------------------------------
+
+--------------------------------------
+Working on (3,0):
+Cholesky Factorization: successful!
+Energy= -2.1458552188
+--------------------------------------
+
+Sweep 1, Y=1
+--------------------------------------
+Working on (0,1):
+Cholesky Factorization: successful!
+Energy= -5.9905289063
+--------------------------------------
+
+--------------------------------------
+Working on (1,1):
+Cholesky Factorization: successful!
+Energy= -8.1282161984
+--------------------------------------
+
+--------------------------------------
+Working on (2,1):
+Cholesky Factorization: successful!
+Energy= -9.8952807413
+--------------------------------------
+
+--------------------------------------
+Working on (3,1):
+Cholesky Factorization: successful!
+Energy= -12.5002627649
+--------------------------------------
+
+Sweep 1, Y=2
+--------------------------------------
+Working on (0,2):
+Cholesky Factorization: successful!
+Energy= -16.4360960282
+--------------------------------------
+
+--------------------------------------
+Working on (1,2):
+Cholesky Factorization: successful!
+Energy= -18.3715292488
+--------------------------------------
+
+--------------------------------------
+Working on (2,2):
+Cholesky Factorization: successful!
+Energy= -21.1955585994
+--------------------------------------
+
+--------------------------------------
+Working on (3,2):
+Cholesky Factorization: successful!
+Energy= -21.5320521819
+--------------------------------------
+
+Sweep 1, Y=3
+--------------------------------------
+Working on (0,3):
+Cholesky Factorization: successful!
+Energy= -22.6743720440
+--------------------------------------
+
+--------------------------------------
+Working on (1,3):
+Cholesky Factorization: successful!
+Energy= -23.4109152175
+--------------------------------------
+
+--------------------------------------
+Working on (2,3):
+Cholesky Factorization: successful!
+Energy= -24.7835236601
+--------------------------------------
+
+--------------------------------------
+Working on (3,3):
+Cholesky Factorization: successful!
+Energy= -24.8402985969
+--------------------------------------
+
+Sweep 1, Y=3 (backward)
+--------------------------------------
+Working on (2,3) (backward):
+Cholesky Factorization: successful!
+Energy= -24.8615552679
+--------------------------------------
+
+--------------------------------------
+Working on (1,3) (backward):
+Cholesky Factorization: successful!
+Energy= -24.8763629450
+--------------------------------------
+
+--------------------------------------
+Working on (0,3) (backward):
+Cholesky Factorization: successful!
+Energy= -24.8879513585
+--------------------------------------
+
+Sweep 1, Y=2 (backward)
+--------------------------------------
+Working on (3,2) (backward):
+Cholesky Factorization: successful!
+Energy= -24.9131300244
+--------------------------------------
+
+--------------------------------------
+Working on (2,2) (backward):
+Cholesky Factorization: successful!
+Energy= -24.9498051015
+--------------------------------------
+
+--------------------------------------
+Working on (1,2) (backward):
+Cholesky Factorization: successful!
+Energy= -24.9911787451
+--------------------------------------
+
+--------------------------------------
+Working on (0,2) (backward):
+Cholesky Factorization: successful!
+Energy= -24.9992485297
+--------------------------------------
+
+Sweep 1, Y=1 (backward)
+--------------------------------------
+Working on (3,1) (backward):
+Cholesky Factorization: successful!
+Energy= -25.2184042002
+--------------------------------------
+
+--------------------------------------
+Working on (2,1) (backward):
+Cholesky Factorization: successful!
+Energy= -26.1315878633
+--------------------------------------
+
+--------------------------------------
+Working on (1,1) (backward):
+Cholesky Factorization: the leading minor of order 217 is not positive definite!
+Cholesky Factorization: the leading minor of order 1 is not positive definite!
+--------------------------------------
+
+--------------------------------------
+Working on (0,1) (backward):
+Cholesky Factorization: successful!
+Energy= -25.4078665669
+--------------------------------------
+
+Sweep 1, Y=0 (backward)
+--------------------------------------
+Working on (3,0) (backward):
+Cholesky Factorization: successful!
+Energy= -25.6106089314
+--------------------------------------
+
+--------------------------------------
+Working on (2,0) (backward):
+Cholesky Factorization: successful!
+Energy= -25.7118934951
+--------------------------------------
+
+--------------------------------------
+Working on (1,0) (backward):
+Cholesky Factorization: successful!
+Energy= -25.8888573400
+--------------------------------------
+
+Sweep 2, Y=0
+--------------------------------------
+Working on (0,0):
+Cholesky Factorization: successful!
+Energy= -27.3470116354
+--------------------------------------
+
+--------------------------------------
+Working on (1,0):
+Cholesky Factorization: successful!
+Energy= -34.5138905456
+--------------------------------------
+
+--------------------------------------
+Working on (2,0):
+Cholesky Factorization: the leading minor of order 49 is not positive definite!
+Cholesky Factorization: the leading minor of order 1 is not positive definite!
+--------------------------------------
+
+--------------------------------------
+Working on (3,0):
+Cholesky Factorization: successful!
+Energy= -41.0420432316
+--------------------------------------
+
+Sweep 2, Y=1
+--------------------------------------
+Working on (0,1):
+Cholesky Factorization: successful!
+Energy= -23.9316006830
+--------------------------------------
+
+--------------------------------------
+Working on (1,1):
+Cholesky Factorization: the leading minor of order 79 is not positive definite!
+Cholesky Factorization: the leading minor of order 1 is not positive definite!
+--------------------------------------
+
+--------------------------------------
+Working on (2,1):
+Cholesky Factorization: the leading minor of order 226 is not positive definite!
+Cholesky Factorization: the leading minor of order 1 is not positive definite!
+--------------------------------------
+
+--------------------------------------
+Working on (3,1):
+Cholesky Factorization: successful!
+Energy= -24.8051434322
+--------------------------------------
+
+Sweep 2, Y=2
+--------------------------------------
+Working on (0,2):
+Cholesky Factorization: successful!
+Energy= -24.7449057084
+--------------------------------------
+
+--------------------------------------
+Working on (1,2):
+Cholesky Factorization: successful!
+Energy= -24.8267120033
+--------------------------------------
+
+--------------------------------------
+Working on (2,2):
+Cholesky Factorization: successful!
+Energy= -24.8793476574
+--------------------------------------
+
+--------------------------------------
+Working on (3,2):
+Cholesky Factorization: successful!
+Energy= -24.8988612929
+--------------------------------------
+
+Sweep 2, Y=3
+--------------------------------------
+Working on (0,3):
+Cholesky Factorization: successful!
+Energy= -24.9005816158
+--------------------------------------
+
+--------------------------------------
+Working on (1,3):
+Cholesky Factorization: successful!
+Energy= -24.9066727678
+--------------------------------------
+
+--------------------------------------
+Working on (2,3):
+Cholesky Factorization: successful!
+Energy= -24.9130974305
+--------------------------------------
+
+--------------------------------------
+Working on (3,3):
+Cholesky Factorization: successful!
+Energy= -24.9163620259
+--------------------------------------
+
+Sweep 2, Y=3 (backward)
+--------------------------------------
+Working on (2,3) (backward):
+Cholesky Factorization: successful!
+Energy= -24.9169145496
+--------------------------------------
+
+--------------------------------------
+Working on (1,3) (backward):
+Cholesky Factorization: successful!
+Energy= -24.9177224366
+--------------------------------------
+
+--------------------------------------
+Working on (0,3) (backward):
+Cholesky Factorization: successful!
+Energy= -24.9180589697
+--------------------------------------
+
+Sweep 2, Y=2 (backward)
+--------------------------------------
+Working on (3,2) (backward):
+Cholesky Factorization: successful!
+Energy= -24.9191860056
+--------------------------------------
+
+--------------------------------------
+Working on (2,2) (backward):
+Cholesky Factorization: successful!
